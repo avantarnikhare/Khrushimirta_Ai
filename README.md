@@ -73,7 +73,7 @@ To run this project locally:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/avantarnikhare/Khrushimirta_Ai.git](https://github.com/avantarnikhare/Khrushimirta_Ai.git)
+    git clone [https://github.com/avantarnikhare/Khrushimirta_Ai.git]
     ```
 2.  **Install Dependencies:**
     ```bash
