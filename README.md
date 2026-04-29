@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://your-demo-link-here.com">
+  <a href="(https://khrushimirta-ai.onrender.com/)">
     <img src="https://img.shields.io/badge/LIVE%20DEMO-🚀-0F766E?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
   </a>
 </p>
