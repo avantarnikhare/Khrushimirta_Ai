@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #166534;
+  --secondary: #22c55e;
+  --accent: #84cc16;
+  --background: #f0fdf4;
+  --ink: #052e16;
+}
+
+body {
+  color: var(--ink);
+  font-family: var(--font-manrope), sans-serif;
+  background-color: var(--background);
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(132, 204, 22, 0.24), transparent 35%),
+    radial-gradient(circle at 85% 4%, rgba(34, 197, 94, 0.2), transparent 38%),
+    linear-gradient(180deg, #f7fff8 0%, #f0fdf4 45%, #ecfccb 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-space-grotesk), sans-serif;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes drift-3d {
+  0%,
+  100% {
+    transform: perspective(1100px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(1100px) rotateX(1.6deg) rotateY(-2deg);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.7s ease-out both;
+  }
+
+  .animate-float {
+    animation: float 5s ease-in-out infinite;
+  }
+
+  .glass-card {
+    @apply rounded-2xl border border-green-100/80 bg-white/90 shadow-card backdrop-blur;
+  }
+
+  .card-3d {
+    transform-style: preserve-3d;
+    transition: transform 400ms ease, box-shadow 400ms ease;
+    animation: drift-3d 9s ease-in-out infinite;
+  }
+
+  .card-3d:hover {
+    transform: perspective(1100px) rotateX(4deg) rotateY(-5deg) translateY(-6px);
+    box-shadow: 0 22px 50px -18px rgba(22, 101, 52, 0.35);
+  }
+}
