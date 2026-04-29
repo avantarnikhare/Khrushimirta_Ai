@@ -1,11 +1,15 @@
 # 🌾 KrushiMitra AI
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=26&duration=2200&pause=800&color=0F766E&center=true&vCenter=true&width=900&lines=AI-powered+Agriculture+Assistant;Smart+Farming+with+AI;Weather+Insights+%2B+Crop+Guidance;Built+by+Avantar+Nikhare" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=26&duration=2000&pause=800&color=0F766E&center=true&vCenter=true&width=900&lines=AI-powered+Agriculture+Assistant;Smart+Farming+with+AI;Weather+Insights+%2B+Crop+Guidance" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,100:134e4a&height=140&section=header&text=KrushiMitra%20AI&fontSize=35&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,100:134e4a&height=160&section=header&text=KrushiMitra%20AI&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:134e4a,100:0f766e&height=120&section=header&text=Avantar%20Nikhare&fontSize=28&fontColor=ffffff&animation=twinkling" />
 </p>
 
 ---
@@ -15,13 +19,8 @@
 
 ---
 
-## 👨‍💻 Developer  
-Avantar Nikhare
-
----
-
 ## ✨ About Project  
-KrushiMitra AI is an AI-powered agriculture platform designed to help farmers make faster and smarter decisions.
+KrushiMitra AI is an AI-powered agriculture platform designed to help farmers make faster and smarter decisions using real-time data and intelligent suggestions.
 
 - 🌦️ Weather insights  
 - 🌱 Crop guidance  
@@ -50,23 +49,30 @@ KrushiMitra AI is an AI-powered agriculture platform designed to help farmers ma
 
 ## 📂 Project Structure  
 
-copy
-
-
+```
 src/
  ├── app/
  ├── components/
  ├── context/
  └── lib/
+```
+
 ---
 
-## ⚙️ Run Locally  
+## ⚙️ How to Run  
 
-Bash
-
-
+```
 npm install
 npm run dev
+```
+
+Create `.env.local` and add:
+```
+GROQ_API_KEY=your_key
+OPENWEATHER_API_KEY=your_key
+GEOAPIFY_API_KEY=your_key
+```
+
 ---
 
 ## 🔒 Security  
@@ -94,4 +100,3 @@ npm run dev
 ## 💬 Final Note  
 
 Built to solve real-world farming problems using AI 🚀
-
