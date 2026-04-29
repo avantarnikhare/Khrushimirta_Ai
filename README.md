@@ -7,10 +7,11 @@
 </p>
 
 <p align="center">
-  <a href="(https://khrushimirta-ai.onrender.com/)">
-    <img src="https://img.shields.io/badge/LIVE%20DEMO-🚀-0F766E?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+  <a href="https://khrushimirta-ai.onrender.com/" target="_blank">
+    <img src="https://img.shields.io/badge/LIVE%20DEMO-🚀-0F766E?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo" />
   </a>
 </p>
+
 
 ---
 
